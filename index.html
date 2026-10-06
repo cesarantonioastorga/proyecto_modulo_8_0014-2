@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>César Astorga | Desarrollador Fullstack</title>
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <!-- ESTILOS  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- HEADER  -->
+    <header class="site">
+        <nav class="contenedor">
+            <span class="brand">César Astorga</span>
+            <i class="fa-solid fa-bars" id="boton-menu" style="font-size: 20px;"></i>
+            <ul class="links" id="menu">
+                <li>
+                    <a href="#sobre-mi">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#skils">Skills</a>
+                </li>
+                <li>
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#caso-de-estudio">Caso de estudio</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section>
+        <div class="hero contenedor" data-aos="fade-up">
+            <p class="stack">Vue - Django</p>
+            <h1>César Astorga<br> <span>Desarrollador Fullstack</span></h1>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos impedit odio alias harum earum voluptatum similique, temporibus magni autem nobis id enim repellat, modi amet aperiam nesciunt possimus neque. Voluptatum.</p>
+            <div class="hero-action">
+                <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-secondary">Hablemos</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- SOBRE MI -->
+        <section id="sobre-mi" class="contenedor" >
+            <div  class="seccion">
+                <div data-aos="fade-right">
+                    <h2>Sobre Mi</h2>
+                    <img src="assets/img/perfil.svg" alt="foto perfil" width="350" class="perfil">
+                </div>
+                <div class="sobremi-descripcion" data-aos="fade-up">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veniam incidunt, quos id optio laudantium ab delectus neque doloribus, impedit saepe iure officia ducimus quod deserunt placeat officiis. Explicabo, vero.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum facere magnam minus consequuntur quasi est voluptatem velit numquam dignissimos rem impedit, dolorem, ipsa deleniti dicta libero dolore. Est, dicta. Dolore.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati aliquid ratione reiciendis quis veritatis libero blanditiis, asperiores maxime minus ut debitis dicta itaque praesentium delectus! Possimus iste explicabo rem esse.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- SKILLS -->
+        <section id="skills" class="contenedor">
+            <div class="seccion">
+                <div data-aos="fade-right">
+                    <h2>Habilidades</h2>
+                </div>
+                <div class="skills-groups">
+                    <div class="skills-group" data-aos="flip-up">
+                        <i class="fa-solid fa-desktop"></i>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group" data-aos="flip-up" data-aos-delay="500">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group" data-aos="flip-up" data-aos-delay="1000">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <h3>Herramientas</h3>
+                        <ul>
+                            <li>Git / Github</li>
+                            <li>Linux</li>
+                            <li>Trello</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+
+    <!-- PROYECTOS (3) -->
+    <section id="proyectos">
+        <div class="contenedor">
+            <div class="seccion">
+                <div data-aos="fade-right">
+                    <h2>Proyectos</h2>
+                </div>
+                <div data-aos="fade-up">
+                    <p>Agrega a tu portafolio al menos 3 proyectos desarrollados durante el curso (Gestor de proyectos y tareas, Gestor de clientes y Billetera virtual)</p>
+                </div>
+            </div>
+            <div>
+                <div class="proyectos-groups">
+                    <div class="proyecto-group" data-aos="flip-up">
+                        <div>
+                            <h3>Proyecto 1</h3>
+                            <p>Gestor de proyectos y tareas</p>
+                            <img src="assets/img/proyecto-2.jpg" alt="gestor proyectos">
+                        </div>
+                        <div>
+                            <h4><i class="fa-solid fa-clipboard-list"></i> Aplicación web con Django</h4>
+                            <p>Los usuarios se registran, inician sesión y crean, editan, y eliminan proyectos y tareas. Incluye acceso restringido, formularios con validación y sitio de administración personalizado.</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>MySql</li>
+                            </ul>
+                            <div class="proyecto-buttons">
+                                <a href="#" class="btn btn-primary">Ver codigo</a>
+                                <a href="#" class="btn btn-secondary">Ver demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proyecto-group" data-aos="flip-up">
+                        <div>
+                            <h3>Proyecto 2</h3>
+                            <p>Gestor de clientes</p>
+                            <img src="assets/img/proyecto-3.jpg" alt="gestor clientes">
+                        </div>
+                        <div>
+                            <h4><i class="fa-solid fa-users"></i> Sistema con Python</h4>
+                            <p>Aplicación para registrar, consultar, actualizar y eliminar clientes, con persistencia de datos en archivos txt, csv y json.</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Tkinter</li>
+                            </ul>
+                            <div class="proyecto-buttons">
+                                <a href="#" class="btn btn-primary">Ver codigo</a>
+                                <a href="#" class="btn btn-secondary">Ver demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proyecto-group" data-aos="flip-up">
+                        <div>
+                            <h3>Proyecto 3</h3>
+                            <p>Billetera Virtual</p>
+                            <img src="assets/img/proyecto-1.jpg" alt="gestor clientes">
+                        </div>
+                        <div>
+                            <h4><i class="fa-solid fa-wallet"></i> Alke Wallet</h4>
+                            <p>Billetera digital para administrar activos financieros: Inicio de sesión, registro, saldo, depositos, envios de dinerop a contactos e historial de transacciones. Frontend y Backend.</p>
+                            <ul>
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>JQuery</li>
+                                <li>Bootstrap</li>
+                                <li>Python</li>
+                                <li>Django</li>
+                                <li>MySql</li>
+                            </ul>
+                            <div class="proyecto-buttons">
+                                <a href="#" class="btn btn-primary">Ver codigo</a>
+                                <a href="#" class="btn btn-secondary">Ver demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CASO DE ESTUDIO -->
+    <section id="caso-de-estudio" class="contenedor">
+        <div class="caso">
+            <div class="caso-header" data-aos="fade-up">
+                <div >
+                    <img src="assets/img/proyecto-1.jpg" alt="alke wallet" class="captura captura-caso">
+                </div>
+                <div>
+                    <h2>Caso de estudio</h2>
+                    <p class="caso-intro">
+                        Alke Wallet, Billetera Virtual para empresa Fintech. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, minus!.
+                    </p>
+                </div>
+            </div>
+            <div class="caso-body">
+                <div class="tarjeta" data-aos="fade-right">
+                    <h3>Descripción de la actividad</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt perspiciatis iste eius impedit et reprehenderit veritatis, id magni beatae unde sit laborum provident soluta, dicta commodi, nobis asperiores hic dolorem.</p>
+                </div>
+                <div class="tarjeta" data-aos="fade-up">
+                    <h3>Desafio principal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel laboriosam sed repellat libero doloremque dignissimos possimus eius illo consectetur ea delectus voluptatum quod obcaecati cum ut ducimus, excepturi veniam sit.</p>
+                </div>
+                <div class="tarjeta" data-aos="fade-right">
+                    <h3>Solución propuesta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum explicabo, maiores quidem impedit officia laboriosam excepturi tempore molestiae omnis, delectus a obcaecati? Blanditiis, eveniet at pariatur ullam doloremque laudantium sint?</p>
+                </div>
+                <div class="tarjeta" data-aos="fade-up">
+                    <h3>Herramientas técnicas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae placeat laudantium, facilis eos dolorum iste voluptas sint soluta aut blanditiis inventore eum dignissimos, cumque expedita cupiditate amet saepe perferendis dolores.</p>
+                </div>
+                <div class="tarjeta" data-aos="fade-right">
+                    <h3>Principales aprendizajes</h3>
+                    <ul>
+                        <li>lista 1</li>
+                        <li>lista 1</li>
+                        <li>lista 1</li>
+                    </ul>
+                </div>
+                <div class="tarjeta" data-aos="fade-up">
+                    <h3>Habilidades técnicas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex possimus numquam tempora necessitatibus praesentium veritatis sit quod harum, quasi debitis reprehenderit sint odio quam? Atque explicabo alias consequatur reiciendis dolorum.</p>
+                </div>
+                <div class="tarjeta full-width" data-aos="fade-up">
+                    <h3>Métricas de impacto</h3>
+                    <div class="metricas">
+                        <div class="metrica">
+                            <i class="fa-regular fa-clock"></i>
+                            <h4>Tiempo de resolución</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="metrica">
+                            <i class="fa-solid fa-arrow-up-wide-short"></i>
+                            <h4>Mejoras funcionales</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="metrica">
+                            <i class="fa-solid fa-ranking-star"></i>
+                            <h4>Eficiencia</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="metrica">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h4>Cobertura</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta full-width" data-aos="fade-up">
+                    <h3>Por qué lo elegí</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ad modi perspiciatis nam, suscipit nobis exercitationem saepe hic voluptatem fugiat, doloremque error ipsum magnam autem non minus laborum iure dicta!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contenedor">
+        <div class="seccion">
+            <div data-aos="fade-right">
+                <h2>Contacto</h2>
+            </div>
+            <div>
+                <h3 data-aos="fade-up">Trabajemos juntos? Escribeme:</h3>
+                <ul class="contacto-lista">
+                    <li data-aos="fade-up">
+                        
+                        <a href="mailto:tucorreo@gmail.com"><i class="fa-regular fa-envelope"></i> tucorreo@gmail.com</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        
+                        <a href="tel:+56912345678"><i class="fa-solid fa-mobile-screen-button"></i> +56 9 1234 5678</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        
+                        <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    </li>
+                    <li data-aos="fade-up">
+                        
+                        <a href="#"><i class="fa-brands fa-github"></i> Github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+            <p>2026 | Cesar Astorga. Sitio hecho con Vue/Django 🤓</p>
+        </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>
